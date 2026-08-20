@@ -1,0 +1,5 @@
+Package: j2v
+Description: JSON to VAR converter
+Version: 1.0.0
+Maintainer: Andreas Knollmann
+Architecture: all
