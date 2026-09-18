@@ -59,7 +59,7 @@ class VarService
                             $output .= sprintf('%s=%s%s', $key, $this->quoteValue($value), PHP_EOL);
                         }
                     } else {
-                        $output .= sprintf('%s+=()%s', $key, PHP_EOL);
+                        $output .= sprintf('%s=()%s', $key, PHP_EOL);
 
                         foreach ($value as $valueValue) {
                             $output .= sprintf(

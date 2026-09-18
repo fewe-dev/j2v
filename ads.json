@@ -4,7 +4,7 @@
             "app"
         ],
         "bashServer": "app",
-        "bashPath": "<appPath>",
+        "bashPath": "{{appPath}}",
         "bashUser": "me",
         "debugServerNames": [
             "app"
@@ -20,7 +20,7 @@
         "imageName": "fewedev/cli",
         "imageTag": "8.3",
         "containerVolumes": [
-            "${systemPath}:<appPath>:<appUser>:w"
+            "{configPath}:{{appPath}}:{{appUser}}:w"
         ]
     }
 }

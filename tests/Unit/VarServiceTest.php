@@ -51,7 +51,7 @@ test(
         expect($result)->toBeString()->and($result)->toEqual(
             'key_1=value-1
 key_2=value-2
-key_3+=()
+key_3=()
 key_3+=("value-3")
 key_3+=("value-4")
 section_1="{"key-1-1":"value-1-1","key-1-2":"value-1-2","key-1-3":["value-1-3","value-1-4"]}"

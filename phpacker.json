@@ -1,0 +1,7 @@
+{
+    "platform": "all",
+    "src": "build/j2v.phar",
+    "dest": "build",
+    "php": "8.3",
+    "ini": "phpacker.ini"
+}
